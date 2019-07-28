@@ -32,7 +32,7 @@ get_header(); ?>
 if(class_exists('woocommerce')){
 
 	if($shoppingcart_settings['shoppingcart_display_featured_brand'] =='below-widget') {
-		do_action('shoppingcart_display_front_page_product_brand'); // Display just before footer column
+		//do_action('shoppingcart_display_front_page_product_brand'); // Display just before footer column
 	}
 
 }
@@ -48,7 +48,7 @@ if( is_active_sidebar( 'shoppingcart_template_footer_col_1' ) || is_active_sideb
 						if ( is_active_sidebar( 'shoppingcart_template_footer_col_'.$i ) ) : ?>
 							<div class="sc-footer-column">
 
-								<?php dynamic_sidebar( 'shoppingcart_template_footer_col_'.$i ); ?>
+								<?php //dynamic_sidebar( 'shoppingcart_template_footer_col_'.$i ); ?>
 
 							</div>
 
