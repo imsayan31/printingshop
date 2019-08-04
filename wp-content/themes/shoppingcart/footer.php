@@ -54,13 +54,14 @@ $footer_column = $shoppingcart_settings['shoppingcart_footer_column_section'];
 	<?php } ?>
 	<div class="site-info">
 	<div class="wrap">
-	<?php do_action('shoppingcart_footer_menu');
+	<?php 
+	/*do_action('shoppingcart_footer_menu');
 	if($shoppingcart_settings['shoppingcart_buttom_social_icons'] == 0):
 		do_action('shoppingcart_social_links');
-	endif;
+	endif;*/
 
 	if ( is_active_sidebar( 'shoppingcart_footer_options' ) ) :
-		dynamic_sidebar( 'shoppingcart_footer_options' );
+		//dynamic_sidebar( 'shoppingcart_footer_options' );
 	else:
 		echo '<div class="copyright">'; ?>
 		<a title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" target="_blank" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo get_bloginfo( 'name', 'display' ); ?></a> | 

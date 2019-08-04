@@ -1746,7 +1746,7 @@ video#wp-custom-header-video {
 	background-color: #fff;
 	float: left;
 	padding: 30px;
-	width: 70%;
+	width: 100%;
 }
 
 .blog #primary,
@@ -3352,7 +3352,7 @@ html[xmlns] .brand-slider .slides {
 	font-size: 13px;
 	line-height: 26px;
 	text-align: right;
-	float: right;
+	text-align: center;
 }
 
 .site-info .copyright,
