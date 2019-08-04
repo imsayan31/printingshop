@@ -65,8 +65,7 @@ $footer_column = $shoppingcart_settings['shoppingcart_footer_column_section'];
 	else:
 		echo '<div class="copyright">'; ?>
 		<a title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" target="_blank" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo get_bloginfo( 'name', 'display' ); ?></a> | 
-						<?php esc_html_e('Designed by:','shoppingcart'); ?> <a title="<?php echo esc_attr__( 'Theme Freesia', 'shoppingcart' ); ?>" target="_blank" href="<?php echo esc_url( 'https://themefreesia.com' ); ?>"><?php esc_html_e('Theme Freesia','shoppingcart');?></a> |
-						<?php  echo '&copy; ' . date_i18n(__('Y','shoppingcart')) ; ?> <a title="<?php echo esc_attr__( 'WordPress', 'shoppingcart' );?>" target="_blank" href="<?php echo esc_url( 'https://wordpress.org' );?>"><?php esc_html_e('WordPress','shoppingcart'); ?></a>
+						<?php  echo '&copy; ' . date_i18n(__('Y','shoppingcart')) ; ?>
 					</div>
 	<?php endif; ?>
 			<div style="clear:both;"></div>

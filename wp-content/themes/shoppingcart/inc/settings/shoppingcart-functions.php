@@ -149,6 +149,11 @@ function shoppingcart_scripts() {
 
 	wp_register_style( 'shoppingcart-google-fonts', '//fonts.googleapis.com/css?family='.$shoppingcart_googlefonts .':300,400,400i,500,600,700');
 	wp_enqueue_style( 'shoppingcart-google-fonts' );
+
+	/*Custom Styles  */
+	wp_register_style( 'shoppingcart-custom-styles', get_template_directory_uri().'/css/custom.css');
+	wp_enqueue_style( 'shoppingcart-custom-styles' );
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
